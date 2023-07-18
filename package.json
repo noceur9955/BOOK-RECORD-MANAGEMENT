@@ -1,0 +1,26 @@
+{
+  "name": "book-record-management",
+  "version": "1.0.0",
+  "description": "Book record management server build with node.js and express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noceur9955/BOOK-RECORD-MANAGEMENT.git"
+  },
+  "author": "Akhilesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noceur9955/BOOK-RECORD-MANAGEMENT/issues"
+  },
+  "homepage": "https://github.com/noceur9955/BOOK-RECORD-MANAGEMENT#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
