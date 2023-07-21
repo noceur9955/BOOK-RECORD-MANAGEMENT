@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/noceur9955/BOOK-RECORD-MANAGEMENT#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
   },
   "devDependencies": {
     "kill-port": "^2.0.1",
