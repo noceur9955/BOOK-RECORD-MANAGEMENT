@@ -171,7 +171,7 @@ router.get("/subscription-details/:id", (req, res) => {
     return date;
   };
 
-  // Subscription expiration calculation
+  // Subscription expiration calculation.
   // Starting date --->  January 1, 1970, UTC. // milliseconds
   let returnDate = getDateInDays(user.returnDate);
   let currentDate = getDateInDays();
